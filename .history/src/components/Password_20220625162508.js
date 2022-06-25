@@ -1,0 +1,16 @@
+import React from 'react'
+import { AiOutlineLock } from "react-icons/ai";
+
+const Password = ({setPassword,password}) => {
+  return (
+    <div className="pass">
+              <h1 className="icon"><AiOutlineLock/></h1>
+              <input type="password" id="password" name="password" placeholder='P' onChange={(e)=>{
+                setPassword(e.target.value)
+                console.log(password)
+                }}/>
+    </div>
+  )
+}
+
+export default Password
