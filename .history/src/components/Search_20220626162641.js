@@ -108,6 +108,8 @@ const Search = () => {
             })}
         </tbody>
       </table>
+
+     
     </div>
   );
 };

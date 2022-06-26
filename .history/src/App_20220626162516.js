@@ -19,15 +19,7 @@ function App() {
         <Route path="/contact_page" element={<Contacts />}></Route>
         <Route path="/add_contact" element={<AddSection />}></Route>
         <Route path="/search_contact" element={<SearchSection />}></Route>
-        <Route
-          path="/edit"
-          element={
-            <div className="contain">
-              <Navbar />
-              <Search />
-            </div>
-          }
-        ></Route>
+        <Route path="/edit" element={<}></Route>
       </Routes>
     </BrowserRouter>
   );
