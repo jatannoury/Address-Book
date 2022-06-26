@@ -7,7 +7,6 @@ import React, { Component, useState } from "react";
 import Navbar from "./components/Navbar";
 import { AiOutlineUser } from "react-icons/ai";
 import AddSection from "./components/AddSection";
-import Search from "./components/Search";
 
 function App() {
   return (
@@ -22,8 +21,7 @@ function App() {
           element={
             <div className="contain">
               <Navbar />
-              <Search />
-            </div>
+              <Search/>
           }
         ></Route>
       </Routes>

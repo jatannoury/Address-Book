@@ -7,7 +7,6 @@ import React, { Component, useState } from "react";
 import Navbar from "./components/Navbar";
 import { AiOutlineUser } from "react-icons/ai";
 import AddSection from "./components/AddSection";
-import Search from "./components/Search";
 
 function App() {
   return (
@@ -17,15 +16,12 @@ function App() {
         <Route path="/register" element={<SignUp />}></Route>
         <Route path="/contact_page" element={<Contacts />}></Route>
         <Route path="/add_contact" element={<AddSection />}></Route>
-        <Route
-          path="/search_contact"
-          element={
-            <div className="contain">
-              <Navbar />
-              <Search />
-            </div>
-          }
-        ></Route>
+        <Route path="/search_contact" element={<>
+        <div className="search_bar">
+          
+        </div>
+        
+        </>}></Route>
       </Routes>
     </BrowserRouter>
   );

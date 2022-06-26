@@ -22,8 +22,7 @@ function App() {
           element={
             <div className="contain">
               <Navbar />
-              <Search />
-            </div>
+              <Search/>
           }
         ></Route>
       </Routes>

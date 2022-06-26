@@ -7,7 +7,6 @@ import React, { Component, useState } from "react";
 import Navbar from "./components/Navbar";
 import { AiOutlineUser } from "react-icons/ai";
 import AddSection from "./components/AddSection";
-import Search from "./components/Search";
 
 function App() {
   return (
@@ -21,9 +20,14 @@ function App() {
           path="/search_contact"
           element={
             <div className="contain">
-              <Navbar />
-              <Search />
-            </div>
+              <div className="search_bar_container">
+                <input
+                  type="text"
+                  placeholder="type here"
+                  className="search_bar"
+                ></input>
+              </div>
+            </>
           }
         ></Route>
       </Routes>
