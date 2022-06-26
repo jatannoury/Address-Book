@@ -18,7 +18,7 @@ const Table = () => {
         },
       }
     );
-    window.location.href = "/contact_page";
+    // window.location.href = "/contact_page";
   }
   useEffect(() => {
     const test = async () => {

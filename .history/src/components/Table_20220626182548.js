@@ -12,7 +12,7 @@ const Table = () => {
     const res = await fetch(
       `http://localhost:3001/api/user/delete_contact?phoneNb=${phoneNb}`,
       {
-        method: "POST",
+        method: "DELETE",
         headers: {
           "Content-type": "application/json",
         },

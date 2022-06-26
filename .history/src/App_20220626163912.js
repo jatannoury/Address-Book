@@ -9,7 +9,7 @@ import { AiOutlineUser } from "react-icons/ai";
 import AddSection from "./components/AddSection";
 import Search from "./components/Search";
 import SearchSection from "./components/SearchSection";
-import Update from "./components/Update";
+
 function App() {
   return (
     <BrowserRouter>
